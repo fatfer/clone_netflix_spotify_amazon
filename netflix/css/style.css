@@ -9,7 +9,7 @@ html, body{
 * {
     box-sizing: border-box;
   }
-  
+
 header{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/header-background.jpg');
     height: 100vh;
@@ -43,4 +43,21 @@ nav .signin {
     border-radius: 3px;
     font-size: 16px;
     text-decoration: none;
-  }
+}
+
+.pitch{
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+}
+
+.pitch_title{
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+
+.pitch_subtitle{
+    margin: 0 0 .5em;
+}
