@@ -89,6 +89,11 @@ nav .signin:hover, .btn:hover{
     background-color: #141414;
     border-bottom: 2px solid #3d3d3d;
 }
+
+#features > nav a.is-selected {
+    border-bottom: 5px solid #e50914;
+    color: white;
+}
   
 #features > nav a {
     text-decoration: none;
@@ -111,6 +116,15 @@ nav .signin:hover, .btn:hover{
 #features > nav a h2 {
     margin: 10px 0 0;
     font-size: 1em;
+}
+
+#features > article > section {
+    display: none;
+    padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+    display: block;
 }
 
 .columns {
